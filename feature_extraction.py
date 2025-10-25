@@ -14,7 +14,7 @@ import chromadb
 from chromadb.config import Settings
 
 # ------------------- CONFIG -------------------
-DATA_DIR      = Path("/Users/anodic_passion/Downloads/Abstract_Chevron_Print_Kimono")          # <-- put your images here
+DATA_DIR      = Path("Abstract_Chevron_Print_Kimono")          # <-- put your images here
 CHROMA_PATH   = Path("./chroma_db")          # <-- where the DB lives
 COLLECTION    = "fashion"                    # name inside Chroma
 MODEL_NAME    = "resnet50"                   # only choice for zero-deps
